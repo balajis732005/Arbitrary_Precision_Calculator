@@ -1,15 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-typedef struct node{
-    Operand *prev;
-    int data;
-    Operand *next;
-} Operand;
+#include<stdio.h>
+#include<string.h>
+#include "data.h"
 
-typedef struct node{
-    int data;
-    Result *next;
-} Result;
+// Function Declaration
+Status validateOperand(char *);
 
 #endif
